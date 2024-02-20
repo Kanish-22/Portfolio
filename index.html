@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/b1ff751644.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/name.jpg" class="kanish">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#internships">My Internships</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p> Frontend Developer</p>
+          <h1>Hi,I'm <span>Kanishka</span></h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/kani2.png" alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am currently pursuing Computer Science and Engineering At 
+              Dr.Mahalingam College of Engineering And Technology,Pollachi.
+              I've cultivated a solid foundation in programming languages and software development
+              methodologies.
+              Throughout my academic journey, I've actively engaged in projects and 
+              coursework that have honed my problem-solving skills and fostered a deep curiosity
+              for emerging technologies. With each semester, 
+              I've embraced opportunities to expand my knowledge and practical experience, whether through internships,
+               hackathons, or personal projects. Eager to continue exploring new avenues and contributing to impactful initiatives, 
+               I'm poised to leverage my skills and passion for innovation in the ever-evolving field of computer science.</p>
+
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('technical skills')">Technical Skills</p> 
+                <p class="tab-links"  onclick="opentab('soft skills')">Soft Skills</p> 
+                <p class="tab-links"  onclick="opentab('education')">Education</p> 
+               </div>
+               <div class="tab-contents active-tab" id="technical skills">
+                <ul>
+                  <li>C</li>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>Mysql</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="soft skills">
+                <ul>
+                  <li>Leadership</li>
+                  <li>Communication</li>
+                  <li>Decision making</li>
+                  <li>Time Management</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2021-2025</span><br>Pursuing Computer Science And Engineering at Dr.Mahalingam College Of Engineering And Technology,Pollachi</li>
+                  <li><span>2020-2021</span><br>HSC from Keshav Vidhya Mandir Matriculation Higher Secondary School,Pollachi</li>
+                  <li><span>2019-2020</span><br>SSLC from Keshav Vidhya Mandir Matriculation Higher Secondary School,Pollachi</r></li>
+                </ul>
+               </div>
+
+          </div>
+          
+      </div>
+    </div>
+    </div>
+  <div id="projects">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="projects-list">
+        <div>
+          <i class="fa-solid fa-bed-pulse"></i>
+          <h2>Patient Blood Oxygen Level Monitoring System using IOT</h2>
+          <p>This projects uses sensors that allow to detect blood 
+            oxygen level of a person sensing even if the person is at home. The sensor 
+            is then interfaced to a microcontroller that allows checking SpO2 readings 
+            and transmitting them over internet. The user may set the high as well as 
+            low levels of blood oxygen saturation limit.As soon as patient SpO2 level goes above a 
+            certain limit, the system sends an alert to the controller which then 
+            transmits this over the internet and alerts the doctor as well as concerned 
+            users.The system alerts the concerned person through call, Email,telegram 
+            and message.  
+              Thus concerned ones may monitor heart rate as well 
+            get an alert about the patient immediately from anywhere and the person 
+            can be saved on time.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>Netflix Clone using HTML and CSS</h2>
+          <br>
+          <br>
+          <p>I developed a Netflix Clone using HTML and CSS to replicate the popular streaming platform's user interface. 
+            The project aimed to recreate Netflix's familiar browsing experience, complete with responsive design for seamless usage across devices. 
+            Key features include a navigable layout with categories and genres, thumbnail displays for movies and TV shows with hover effects for additional information, and a sign-in page for user authentication. 
+            Implementing pixel-perfect design and ensuring responsiveness challenged my attention to detail and CSS skills.
+             This project has been invaluable in honing my front-end development skills and understanding the complexities of creating immersive user experiences in web development.
+              The initial design and layout planning were done using Figma.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="internships">
+    <div class="container">
+      <h1 class="sub-title">My Internships</h1>
+      <div class="internships-list">
+        <div class="internships">
+          <img src="./images/img_1.jpg">
+          <div class="layer">
+            <h3>Onwords Smart Solutions</h3>
+            <p>I embarked on my journey in web development, starting with the basics of HTML, CSS, and JavaScript. Under the guidance of seasoned developers, I dove into real-world projects, gradually applying my newfound knowledge to various tasks. From crafting simple web pages to styling elements with CSS and adding interactivity with JavaScript, each project was a stepping stone in my learning journey. Through hands-on experience and mentorship, I gained a deeper understanding of web development fundamentals and honed my problem-solving skills. This internship marked the beginning of my career in web development, laying a strong foundation for future learning and growth in the field.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="internships">
+          <img src="./images/img_2.jpg">
+          <div class="layer">
+            <h3>Codsoft</h3>
+            <p>I am currently interning at codsoft,where I'm actively contributing to real projects across diverse domains. 
+              This internship serves as a pivotal moment for growth, preparing me for future challenges and opportunities in the ever-evolving landscape of software development.
+              Each project presents an opportunity to deepen my understanding of responsive design, user experience optimization, and efficient coding practices.
+               This immersive learning environment fosters continuous growth, empowering me to evolve as a proficient and versatile web developer.
+            </p>
+            <br>
+            <br>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>contact@kanishka22504@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>7550361594</p>
+          <div class="social-icons">
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+
+          </div>
+          <a href="images/Kanishka_resume.pdf" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" require>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Kanishka</p>
+    </div>
+  </div>
+    <script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+      function opentab(tabname)
+      {
+        for(tablink of tablinks)
+        {
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  
+    <script>
+  var sidemeu=document.getElementbyId("sidemenu");
+    function openmenu()
+    {
+      sidemeu.style.right="0";
+    }
+    function closemenu()
+    {
+      sidemeu.style.right="-200px";
+    }
+    </script>
+    <script>
+       const scriptURL = '<SCRIPT URL>'
+  const form = document.forms['submit-to-google-sheet']
+  const msg =document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function()
+        {
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+    </script>
+     
+  </body>
+</html>
